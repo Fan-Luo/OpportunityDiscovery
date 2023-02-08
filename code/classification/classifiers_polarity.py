@@ -184,36 +184,4 @@ for name, clf, param_grid in zip(names, classifiers,param_grids):
     print()
     print("F1_micro among labels[1,2]:")
     print(metrics.f1_score(y_true, y_pred, average='micro',labels=[1,2])) 
-    
-
-    # y_pro = grid.predict_proba(X_test)
-    # with open('classifiers_probabilities.tsv', 'w') as output:
-    #     output.write("pro_0\tpro_1\tpredict\tgold\tconceptA\tconceptB\tconceptC\tA-idf\tC-idf\tnew finding\tgold-r3-id\tgold-r3-polarity\n")
-    #     for i in range(len(y_test)):
-    #         output.write(str(y_pro[i][0]))
-    #         output.write('\t')
-    #         output.write(str(y_pro[i][1]))
-    #         output.write('\t')
-    #         output.write(str(y_pred[i]))
-    #         output.write('\t')
-    #         output.write(str(y_true[i]))
-    #         output.write('\t')
-    #         output.write(str(text_test[i][0]))
-    #         output.write('\t')
-    #         output.write(str(text_test[i][1]))
-    #         output.write('\t')
-    #         output.write(str(text_test[i][2]))
-    #         output.write('\t')
-    #         output.write(str(A_idf[i]))
-    #         output.write('\t')
-    #         output.write(str(C_idf[i]))
-    #         output.write('\t')
-    #         output.write(str(text_test[i][0])+" -> "+str(text_test[i][2]))
-    #         if(y_true[i]):
-    #             output.write('\t')
-    #             output.write(str(r3_id_test[i]))
-    #             output.write('\t')
-    #             output.write(str(r3_label_test[i]))
-    #         output.write('\n')
-    # print()
 
