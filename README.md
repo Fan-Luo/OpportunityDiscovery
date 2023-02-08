@@ -1,4 +1,5 @@
-# Scientific Discovery as Link Prediction in Influence and Citation Graphs
+# [Scientific Discovery as Link Prediction in Influence and Citation Graphs](https://aclanthology.org/W18-1701/)
+By Fan Luo, Marco A. Valenzuela-Escárcega, Gus Hahn-Powell, and Mihai Surdeanu ([Clulab](https://clulab.org/))
 
 ## Introduction
 This repository contains the code and data used in the paper "Scientific Discovery as Link Prediction in Influence and Citation Graphs". The paper presents a novel approach to scientific discovery by treating it as a link prediction problem in influence and citation graphs.
